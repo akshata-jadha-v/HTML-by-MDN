@@ -65,6 +65,7 @@ height="300" />
 
 <p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
 
+<!--Metadata in HTML-->
 <!-- Head element -->
 
 <head>
@@ -87,4 +88,201 @@ height="300" />
 complete beginners to the Web with all they need to know to get
 started with developing websites and applications." />
 
+<!-- other types of metadata -->
+
+<meta
+  property="og:image"
+  content="https://developer.mozilla.org/mdn-social-share.png" />
+<meta
+  property="og:description"
+  content="The Mozilla Developer Network (MDN) provides
+information about Open Web technologies including HTML, CSS, and APIs for both websites
+and HTML Apps." />
+<meta property="og:title" content="Mozilla Developer Network" />
+
+<!-- adding custom icons to your site -->
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+<!-- third-generation iPad with high-resolution Retina display: -->
+<link
+  rel="apple-touch-icon"
+  sizes="144x144"
+  href="https://developer.mozilla.org/static/img/favicon144.png" />
+<!-- iPhone with high-resolution Retina display: -->
+<link
+  rel="apple-touch-icon"
+  sizes="114x114"
+  href="https://developer.mozilla.org/static/img/favicon114.png" />
+<!-- first- and second-generation iPad: -->
+<link
+  rel="apple-touch-icon"
+  sizes="72x72"
+  href="https://developer.mozilla.org/static/img/favicon72.png" />
+<!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link
+  rel="apple-touch-icon"
+  href="https://developer.mozilla.org/static/img/favicon57.png" />
+<!-- basic favicon -->
+<link
+  rel="icon"
+  href="https://developer.mozilla.org/static/img/favicon32.png" />
+
+<!-- Applying CSS and Javascript to HTML -->
+
+<link rel="stylesheet" href="my-css-file.css" />
+
+<script src="my-js-file.js" defer></script>
+
+<!-- primary language of the document -->
+
+<html lang="en-US">
+ Pretty Picture
+</html>
+<!--example-->
+<p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+
+<!--HTML text fundamentals-->
+<!-- paragraphs -->
+
+<p>I am a paragraph, oh yes I am.</p>
+
+<!-- headings -->
+
+<h1>I am the title of the story.</h1>
+
+<!-- Structural hierachy -->
+
+<h1>The Crushing Bore</h1>
+
+<p>By Chris Mills</p>
+
+<h2>Chapter 1: The dark night</h2>
+
+<p>
+  It was a dark night. Somewhere, an owl hooted. The rain lashed down on the…
+</p>
+
+<h2>Chapter 2: The eternal silence</h2>
+
+<p>Our protagonist could not so much as a whisper out of the shadowy figure…</p>
+
+<h3>The specter speaks</h3>
+
+<p>
+  Several more hours had passed, when all of a sudden the specter sat bolt
+  upright and exclaimed, "Please have mercy on my soul!"
+</p>
+
+<!-- content structure -->
+
+<h1>My short story</h1>
+<p>
+  I am a statistician and my name is Trish.
+</p>
+<p>
+  My legs are made of cardboard and I am married to a fish.
+</p>
+
+<!--semantics-->
+
+<span style="font-size: 32px; margin: 21px 0; display: block;">
+    Is this a top level heading?
+</span>
+
+<!--LISTS-->
+<!--unordered list-->
+
+<ul>
+    milk
+    eggs
+    bread
+    hummus
+</ul>
+<!--list item-->
+<ul>
+    <li>milk</li>
+    <li>eggs</li>
+    <li>bread</li>
+    <li>hummus</li>
+</ul>
+
+<!--ordered list-->
+<ol>
+    <li>Drive to the end of the road</li>
+    <li>Turn right</li>
+    <li>Go straight across the first two roundabouts</li>
+    <li>Turn left at the third roundabout</li>
+    <li>The school is on your right, 300 meters up the road</li>
+</ol>
+
+<!--nesting elements-->
+
+<ol>
+    <li>Remove the skin from the garlic, and chop coarsely.</li>
+    <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+    <li>Add all the ingredients into a food processor.</li>
+    <li>Process all the ingredients into a paste.</li>
+    <li>If you want a coarse "chunky" hummus, process it for a short time.</li>
+    <li>If you want a smooth hummus, process it for a longer time.</li>
+</ol>
+
+<ol>
+    <li>Remove the skin from the garlic, and chop coarsely.</li>
+    <li>Remove all the seeds and stalk from the pepper, and chop coarsely.</li>
+    <li>Add all the ingredients into a food processor.</li>
+    <li>
+      Process all the ingredients into a paste.
+      <ul>
+        <li>
+          If you want a coarse "chunky" hummus, process it for a short time.
+        </li>
+        <li>If you want a smooth hummus, process it for a longer time.</li>
+      </ul>
+    </li>
+  </ol>
+
+<!--emphasis-->
+<p>I am <em>glad</em> you weren't <em>late</em>.</p>
+
+<!--strong importance-->
+
+<p>This liquid is <strong>highly toxic</strong>.</p>
+
+<p>I am counting on you. <strong>Do not</strong> be late!</p>
+
+<p>This liquid is <strong>highly toxic</strong> — if you drink it, <strong>you may <em>die</em></strong>.</p>
+
+<!-- scientific names -->
+<p>
+    The Ruby-throated Hummingbird (<i>Archilochus colubris</i>) is the most common
+    hummingbird in Eastern North America.
+  </p>
+  
+  <!-- foreign words -->
+  <p>
+    The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
+    <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
+  </p>
+  
+  <!-- a known misspelling -->
+  <p>Someday I'll learn how to <u class="spelling-error">spel</u> better.</p>
+  
+  <!-- term being defined when used in a definition -->
+  <dl>
+    <dt>Semantic HTML</dt>
+    <dd>
+      Use the elements based on their <b>semantic</b> meaning, not their
+      appearance.
+    </dd>
+  </dl>
+  
+
+
+  
+  
+  
+  
+  
+  
 
