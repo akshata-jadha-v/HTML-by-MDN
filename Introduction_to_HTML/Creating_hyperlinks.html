@@ -1,0 +1,82 @@
+<!--Creating Hyperlinks-->
+<!--Anatomy of a link-->
+
+<p>
+    I'm creating a link to
+    <a href="https://www.mozilla.org/en-US/">the Mozilla homepage</a>.
+</p>
+  
+<!--block level links-->
+
+<a href="https://developer.mozilla.org/en-US/">
+    <h1>MDN Web Docs</h1>
+  </a>
+  <p>
+    Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.
+  </p>
+
+<!--image links-->
+
+<a href="https://developer.mozilla.org/en-US/">
+    <img src="mdn_logo.svg" alt="MDN Web Docs" />
+</a>
+  
+<p>
+    I'm creating a link to
+    <a
+      href="https://www.mozilla.org/en-US/"
+      title="The best place to find more information about Mozilla's
+            mission and how to contribute">
+      the Mozilla homepage</a>.
+  </p>
+<!--same directory-->
+  <p>
+    Want to contact a specific staff member? Find details on our
+    <a href="contacts.html">contacts page</a>.
+  </p>
+
+  <!--Moving down into subdirectories-->
+
+  <p>Visit my <a href="projects/index.html">project homepage</a>.</p>
+
+  <!--Moving back up into parent directories-->
+
+  <p>A link to my <a href="../pdfs/project-brief.pdf">project brief</a>.</p>
+ 
+<!-- Document fragments-->   
+
+<h2 id="Mailing_address">Mailing address</h2>
+
+<p>
+    Want to write us a letter? Use our
+    <a href="contacts.html#Mailing_address">mailing address</a>.
+</p>
+
+<p>
+    The <a href="#Mailing_address">company mailing address</a> can be found at the
+    bottom of this page.
+</p>
+
+<!--good link text-->
+
+<p><a href="https://www.mozilla.org/firefox/">Download Firefox</a></p>
+
+<!-- linking to non-html resources -->
+<p>
+    <a href="https://www.example.com/large-report.pdf">
+      Download the sales report (PDF, 10MB)
+    </a>
+  </p>
+  
+  <p>
+    <a href="https://www.example.com/video-stream/" target="_blank">
+      Watch the video (stream opens in separate tab, HD quality)
+    </a>
+  </p>
+  
+  <!-- use the download attribute when linking to a download -->
+  <a
+  href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+  download="firefox-latest-64bit-installer.exe">
+  Download Latest Firefox for Windows (64-bit) (English, US)
+</a>
