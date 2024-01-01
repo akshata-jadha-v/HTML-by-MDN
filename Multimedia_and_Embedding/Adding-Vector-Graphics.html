@@ -1,4 +1,4 @@
-
+<!--Adding vector graphics to the web-->
 
 <svg
   version="1.1"
@@ -9,3 +9,32 @@
   <rect width="100%" height="100%" fill="black" />
   <circle cx="150" cy="100" r="90" fill="blue" />
 </svg>
+
+<!--Adding SVG to your pages-->
+
+<!-- The quick way: img element-->
+
+<img
+  src="equilateral.svg"
+  alt="triangle with all three sides equal"
+  height="87"
+  width="100" />
+
+  <img
+  src="equilateral.png"
+  alt="triangle with equal sides"
+  srcset="equilateral.svg" />
+
+<!--Including SVG code inside your HTML-->
+
+<svg width="300" height="200">
+  <rect width="100%" height="100%" fill="green" />
+</svg>
+
+<!-- Embed an SVG with an iframe-->
+
+<iframe src="triangle.svg" width="500" height="500" sandbox>
+  <img src="triangle.png" alt="Triangle with three unequal sides" />
+</iframe>
+
+
